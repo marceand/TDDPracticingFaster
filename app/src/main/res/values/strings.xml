@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TDDFasterPracting</string>
     <string name="instruction_text">Please choose an activity below.</string>
+    <string name="action_image">Pixabay Image</string>
+    <string name="action_nutritionix">Nutritionix</string>
+    <string name="action_feedback">Feedback</string>
 </resources>
