@@ -4,4 +4,7 @@
     <string name="action_image">Pixabay Image</string>
     <string name="action_nutritionix">Nutritionix</string>
     <string name="action_feedback">Feedback</string>
+    <string name="error_no_image">An error has occurred. Try again!</string>
+    <string name="dialog_error_title">Checking</string>
+    <string name="dialog_action_ok">OK</string>
 </resources>

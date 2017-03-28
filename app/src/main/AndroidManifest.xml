@@ -2,6 +2,8 @@
 <manifest package="com.marceme.tddfasterpracting"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -21,6 +23,8 @@
         <activity android:name=".nutritionixui.NutritionixActivity">
         </activity>
         <activity android:name=".feedbackui.FeedbackActivity">
+        </activity>
+        <activity android:name=".ExampleActivity">
         </activity>
     </application>
 

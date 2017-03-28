@@ -1,6 +1,7 @@
 package com.marceme.tddfasterpracting;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.marceme.tddfasterpracting.injection.ApplicationComponent;
 import com.marceme.tddfasterpracting.injection.ApplicationModule;
@@ -23,5 +24,13 @@ public class MainApplication extends Application {
 
     public ApplicationComponent getComponent(){
         return component;
+    }
+
+    public static MainApplication get(Context context) {
+        return (MainApplication) context.getApplicationContext();
+    }
+    // Needed to replace the component with a test specific one
+    public void setComponent(ApplicationComponent applicationComponent) {
+        component = applicationComponent;
     }
 }

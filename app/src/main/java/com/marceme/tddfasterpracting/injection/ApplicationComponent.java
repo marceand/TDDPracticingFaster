@@ -1,5 +1,6 @@
 package com.marceme.tddfasterpracting.injection;
 
+import com.marceme.tddfasterpracting.imageui.ImageActivity;
 import com.marceme.tddfasterpracting.mainui.MainActivity;
 
 import javax.inject.Singleton;
@@ -15,4 +16,5 @@ import dagger.Component;
 @Component(modules = {ApplicationModule.class})
 public interface ApplicationComponent {
     void inject(MainActivity mainActivity);
+    void inject(ImageActivity imageActivity);
 }
